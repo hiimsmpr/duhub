@@ -1,24 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
+import Nav from './Components/Boiler Plate/nav'
+import Header from './Components/Boiler Plate/header'
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="AppBody">
+      <div className="HeaderDiv">
+        <Header />
+      </div>
+      <div className="NavDiv">
+        <Nav />
+      </div>
+      <div className="BodyDiv">
+        
+      </div>
+
     </div>
   );
 }
